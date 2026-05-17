@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SHABAKAH Comprehensive ICT Services - IT Infrastructure, Cybersecurity, Data Centers, Cloud, Managed Services">
+    <title>Our Services | SHABAKAH Integrated Technology</title>
+    
+    <!-- Favicon (browser tab; same on every page) -->
+    <link rel="icon" type="image/png" href="Untitled-2-011.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons Library -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/glassmorphism.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/modern-sections.css">
+    <link rel="stylesheet" href="assets/css/rtl-support.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+    
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-wrapper glass-effect">
+                <a href="index.html" class="nav-logo">
+                    <img src="Untitled-2-011.png" alt="SHABAKAH Logo" class="logo-img">
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item nav-item-dropdown">
+                        <a href="services.html" class="nav-link active">Services <i class="icon-chevron-down"></i></a>
+                        <div class="mega-menu glass-effect">
+                            <div class="mega-menu-grid">
+                                <div class="mega-menu-item">
+                                    <i data-lucide="server" class="lucide-icon"></i>
+                                    <h4>IT Infrastructure</h4>
+                                    <p>Enterprise-grade infrastructure solutions</p>
+                                    <a href="services.html#infrastructure" class="mega-link">Learn More →</a>
+                                </div>
+                                <div class="mega-menu-item">
+                                    <i data-lucide="database" class="lucide-icon"></i>
+                                    <h4>Data Center Solutions</h4>
+                                    <p>Private cloud and certified data center build-out</p>
+                                    <a href="services.html#datacenter" class="mega-link">Learn More →</a>
+                                </div>
+                                <div class="mega-menu-item">
+                                    <i data-lucide="cctv" class="lucide-icon"></i>
+                                    <h4>Physical Security Systems</h4>
+                                    <p>CCTV, access control, and perimeter protection</p>
+                                    <a href="services.html#physicalsecurity" class="mega-link">Learn More →</a>
+                                </div>
+                                <div class="mega-menu-item">
+                                    <i data-lucide="messages-square" class="lucide-icon"></i>
+                                    <h4>Unified Communications &amp; Collaboration</h4>
+                                    <p>Voice, video, messaging, and meeting platforms</p>
+                                    <a href="services.html#communications" class="mega-link">Learn More →</a>
+                                </div>
+                                <div class="mega-menu-item">
+                                    <i data-lucide="file-key" class="lucide-icon"></i>
+                                    <h4>Software Licensing</h4>
+                                    <p>Cloud and enterprise licensing solutions</p>
+                                    <a href="services.html#licensing" class="mega-link">Learn More →</a>
+                                </div>
+                                <div class="mega-menu-item">
+                                    <i data-lucide="laptop" class="lucide-icon"></i>
+                                    <h4>End-User Devices</h4>
+                                    <p>Device supply and unified endpoint management</p>
+                                    <a href="services.html#enduser" class="mega-link">Learn More →</a>
+                                </div>
+                                <div class="mega-menu-item">
+                                    <i data-lucide="shield-check" class="lucide-icon"></i>
+                                    <h4>Integrated Security &amp; Business Continuity</h4>
+                                    <p>NGFW, EDR, IAM/PAM, and backup resilience</p>
+                                    <a href="services.html#cybersecurity" class="mega-link">Learn More →</a>
+                                </div>
+                                <div class="mega-menu-item">
+                                    <i data-lucide="headset" class="lucide-icon"></i>
+                                    <h4>Managed Services</h4>
+                                    <p>24/7 operations, monitoring, and technical support</p>
+                                    <a href="services.html#managed" class="mega-link">Learn More →</a>
+                                </div>
+                                <div class="mega-menu-item">
+                                    <i data-lucide="radio-tower" class="lucide-icon"></i>
+                                    <h4>ISP Services</h4>
+                                    <p>DIA, hosting, and mission-critical connectivity</p>
+                                    <a href="services.html#isp" class="mega-link">Learn More →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="solutions.html" class="nav-link">Solutions</a></li>
+                    <li class="nav-item"><a href="partners.html" class="nav-link">Partners</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="iot-tracking.html" class="iot-nav-button glass-pill" title="IOT Tracking Platform" aria-label="Raqeeb — IoT tracking platform">
+                        <img src="assets/images/Raqeeb.png" alt="IOT Tracking" class="iot-nav-img">
+                    </a>
+                    <button type="button" class="language-toggle glass-pill" id="languageToggle">
+                        <span class="lang-en active">EN</span>
+                        <span class="lang-divider">|</span>
+                        <span class="lang-ar">العربية</span>
+                    </button>
+                    <button type="button" class="search-btn glass-icon" id="searchBtn" aria-label="Search">
+                        <i class="icon-search"></i>
+                    </button>
+                    <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero-modern">
+        <!-- Animated Background -->
+        <div class="hero-circuit-grid"></div>
+        <!-- Floating Tech Nodes -->
+        <div class="hero-tech-nodes">
+            <div class="tech-node"></div>
+            <div class="tech-node"></div>
+            <div class="tech-node"></div>
+            <div class="tech-node"></div>
+            <div class="tech-node"></div>
+            <div class="tech-node"></div>
+        </div>
+        <!-- Scan Lines -->
+        <div class="hero-scan-line"></div>
+        <div class="hero-scan-line"></div>
+        
+        <div class="container">
+            <nav class="breadcrumb-modern">
+                <a href="index.html">Home</a>
+                <span class="separator">›</span>
+                <span class="current">Services</span>
+            </nav>
+            <h1 class="hero-title-modern">
+                <span class="title-line">Provide ICT Solutions</span>
+                <span class="title-line gradient-text-teal">&amp; ISP Services</span>
+            </h1>
+            <p class="hero-subtitle-modern">
+                <span class="gradient-text-brand">Enterprise-Grade</span> Technology Services Designed for Mission-Critical Operations
+            </p>
+            <div class="hero-stats-row">
+                <div class="hero-stat-item">
+                    <span class="hero-stat-number">SLA</span>
+                    <span class="hero-stat-label">contracts</span>
+                </div>
+                <div class="hero-stat-item">
+                    <span class="hero-stat-number">24/7</span>
+                    <span class="hero-stat-label">support</span>
+                </div>
+                <div class="hero-stat-item">
+                    <span class="hero-stat-number">99.75%</span>
+                    <span class="hero-stat-label">&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IT Infrastructure -->
+    <section id="infrastructure" class="service-detail-section section-padding">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <h2 class="section-title">IT Infrastructure</h2>
+                    <p class="service-description">
+                        Build resilient, scalable, and high-performance infrastructure that powers your digital transformation. 
+                        Our comprehensive IT infrastructure services ensure your technology foundation is robust, secure, and future-ready.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Network Infrastructure Design & Implementation</h4>
+                                <p>Enterprise-grade networking solutions with redundancy and high availability</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Server & Storage Solutions</h4>
+                                <p>Scalable compute and storage infrastructure tailored to your workloads</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Virtualization & Hyperconverged Infrastructure</h4>
+                                <p>Modern infrastructure platforms maximizing efficiency and agility</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Infrastructure Monitoring & Management</h4>
+                                <p>Proactive monitoring and optimization for peak performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/It infrastructure.jpg?v=20251230" alt="IT Infrastructure Solutions" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Center Solutions -->
+    <section id="datacenter" class="service-detail-section section-padding bg-gradient">
+        <div class="container">
+            <div class="service-detail-grid reverse">
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/datacenter and cloud.jpg?v=20251230" alt="Data Center Solutions" loading="lazy">
+                </div>
+                <div class="service-detail-content">
+                    <h2 class="section-title">Data Center Solutions</h2>
+                    <p class="service-description">
+                        Deploy enterprise-class data centers and private cloud infrastructure that deliver exceptional performance, 
+                        reliability, and security for your mission-critical applications and data.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Private Cloud Architecture & Deployment</h4>
+                                <p>Secure, compliant cloud infrastructure with full control</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Data Center Design & Build</h4>
+                                <p>Tier III/IV data center facilities with redundant systems</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Hybrid Cloud Integration</h4>
+                                <p>Seamless integration between on-premises and cloud environments</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Disaster Recovery & Business Continuity</h4>
+                                <p>Comprehensive DR solutions ensuring business resilience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Security Systems -->
+    <section id="physicalsecurity" class="service-detail-section section-padding">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <h2 class="section-title">Physical Security Systems</h2>
+                    <p class="service-description">
+                        Design and deploy physical security that gives you full visibility and control across sites, branches, and critical facilities—from surveillance to access policies and vehicle or pedestrian flow.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>CCTV &amp; Video Surveillance</h4>
+                                <p>Design, deployment, and integration of enterprise-grade camera systems and monitoring</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Access Control Systems</h4>
+                                <p>Card, biometric, and policy-based entry for staff, visitors, and restricted zones</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Barrier Gates &amp; Vehicle Control</h4>
+                                <p>Gates, barriers, and integrations for people and vehicle access where throughput matters</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Centralized Monitoring</h4>
+                                <p>Unified monitoring workflows, alerts, and reporting aligned with your operations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/cybersecurity.jpg?v=20251230" alt="Physical security systems" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unified Communications & Collaboration -->
+    <section id="communications" class="service-detail-section section-padding bg-gradient">
+        <div class="container">
+            <div class="service-detail-grid reverse">
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/unified communication.jpg?v=20251230" alt="Unified Communications &amp; Collaboration" loading="lazy">
+                </div>
+                <div class="service-detail-content">
+                    <h2 class="section-title">Unified Communications &amp; Collaboration</h2>
+                    <p class="service-description">
+                        Modernize your communication infrastructure with unified platforms that integrate voice, video,
+                        messaging, and collaboration tools for enhanced productivity and seamless collaboration.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Enterprise Voice Solutions</h4>
+                                <p>VoIP, IP telephony, and contact center platforms</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Video Conferencing Systems</h4>
+                                <p>High-quality video collaboration for remote teams</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Collaboration Tools Integration</h4>
+                                <p>Unified messaging, presence, and collaboration platforms</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Mobile &amp; Remote Workforce Solutions</h4>
+                                <p>Secure communications for distributed teams</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software Licensing -->
+    <section id="licensing" class="service-detail-section section-padding bg-gradient">
+        <div class="container">
+            <div class="service-detail-grid reverse">
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/Licensing.jpg?v=20251230" alt="Software Licensing Solutions" loading="lazy">
+                </div>
+                <div class="service-detail-content">
+                    <h2 class="section-title">Software Licensing</h2>
+                    <p class="service-description">
+                        Optimize your software investments with expert licensing management, compliance oversight,
+                        and strategic guidance for cloud and enterprise software portfolios.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Enterprise Licensing Programs</h4>
+                                <p>Microsoft, Oracle, VMware, and other enterprise agreements</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Cloud Subscription Management</h4>
+                                <p>Azure, AWS, Google Cloud licensing and optimization</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>License Compliance &amp; Auditing</h4>
+                                <p>Ensure compliance and optimize licensing costs</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Software Asset Management (SAM)</h4>
+                                <p>Comprehensive tracking and optimization of software assets</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End-User Devices -->
+    <section id="enduser" class="service-detail-section section-padding">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <h2 class="section-title">End-User Devices</h2>
+                    <p class="service-description">
+                        Equip teams with the right hardware and manage endpoints consistently—from procurement and imaging to modern management with Intune, Workspace ONE, ManageEngine, and related platforms.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Enterprise Device Supply</h4>
+                                <p>Dell, HP, Lenovo and other tier-one vendors with warranty-aligned rollout and support</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Centralized Endpoint Management</h4>
+                                <p>Microsoft Intune, VMware Workspace ONE, ManageEngine, and modern UEM toolchains</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Virtual Desktop &amp; DaaS</h4>
+                                <p>VDI and cloud desktop patterns where security and mobility are priorities</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Application Delivery</h4>
+                                <p>Application virtualization and streamlined delivery for distributed users</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/end user computing.png?v=20251230" alt="End-user devices and endpoint management" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrated Security & Business Continuity -->
+    <section id="cybersecurity" class="service-detail-section section-padding">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <h2 class="section-title">Integrated Security &amp; Business Continuity</h2>
+                    <p class="service-description">
+                        Layered IT security and resilience aligned with NCA expectations and international practice—covering network edge, endpoints, identity, and backup so your organization can detect, respond, and recover with confidence.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Next-Generation Firewalls &amp; IDS/IPS</h4>
+                                <p>Modern perimeter controls, segmentation, and threat-aware policy design</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Endpoint Protection &amp; EDR</h4>
+                                <p>Advanced endpoint defenses, monitoring, and response workflows</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Identity &amp; Access (IAM / PAM)</h4>
+                                <p>Privileged access, least-privilege design, and identity lifecycle controls</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Backup, Recovery &amp; Continuity</h4>
+                                <p>Resilient backup architectures and recovery aligned with ISO 22301 practices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/cybersecurity.jpg?v=20251230" alt="Integrated security and business continuity" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Managed Services -->
+    <section id="managed" class="service-detail-section section-padding">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <h2 class="section-title">Managed Services</h2>
+                    <p class="service-description">
+                        Focus on your core business while we manage your IT infrastructure. Our managed services
+                        deliver proactive monitoring, maintenance, and optimization ensuring peak performance and minimal downtime.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>24/7 Infrastructure Monitoring</h4>
+                                <p>Continuous monitoring and alerting for all systems</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Proactive Maintenance &amp; Patching</h4>
+                                <p>Regular updates and maintenance during off-peak hours</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Help Desk &amp; Technical Support</h4>
+                                <p>Multi-tier support with guaranteed response times</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Performance Optimization</h4>
+                                <p>Continuous tuning and capacity planning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/managed service.jpg?v=20251230" alt="Managed Services Solutions" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ISP Services -->
+    <section id="isp" class="service-detail-section section-padding bg-gradient">
+        <div class="container">
+            <div class="service-detail-grid reverse">
+                <div class="service-detail-image glass-card">
+                    <img src="assets/images/It infrastructure.jpg?v=20251230" alt="ISP and connectivity services" loading="lazy">
+                </div>
+                <div class="service-detail-content">
+                    <h2 class="section-title">ISP Services</h2>
+                    <p class="service-description">
+                        As a long-established provider, we deliver enterprise-grade connectivity and hosting with clear SLAs—supporting continuity, cloud adoption, and digital growth across the Kingdom.
+                    </p>
+                    <div class="service-features">
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Dedicated Internet Access (DIA)</h4>
+                                <p>High-performance enterprise connectivity with committed bandwidth and paths</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Hosting &amp; Colocation</h4>
+                                <p>Secure hosting options aligned to workload, compliance, and availability targets</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>24/7 Technical Support</h4>
+                                <p>Round-the-clock engineering support for mission-critical operations</p>
+                            </div>
+                        </div>
+                        <div class="feature-item glass-card">
+                            <i data-lucide="check-circle-2" class="lucide-icon"></i>
+                            <div>
+                                <h4>Connectivity Consulting</h4>
+                                <p>Architecture for branches, SD-WAN integration, and performance optimization</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry sector solutions (before footer) -->
+    <section class="solutions-section sector-solutions-section section-padding bg-gradient" aria-label="Industry sector solutions">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag glass-pill">Industry Solutions</span>
+                <h2 class="section-title">Sector-Specific Technology Solutions</h2>
+                <p class="section-description">
+                    Comprehensive ICT solutions designed for the unique challenges and requirements of different industries
+                </p>
+            </div>
+
+            <div class="solutions-grid">
+                <div id="government" class="solution-card glass-card" data-tilt>
+                    <div class="solution-icon">
+                        <i data-lucide="landmark" class="lucide-icon"></i>
+                    </div>
+                    <h3>Government &amp; Public Sector</h3>
+                    <p>Digital transformation solutions aligned with <span style="background: linear-gradient(135deg, #562E91 0%, #A9218E 50%, #EC008C 100%) !important; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important; background-clip: text !important;">Vision 2030</span> objectives, enabling smart government initiatives and citizen services.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> E-Government platforms</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Smart city infrastructure</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Digital identity solutions</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> NCA compliance frameworks</li>
+                    </ul>
+                </div>
+
+                <div id="finance" class="solution-card glass-card" data-tilt>
+                    <div class="solution-icon">
+                        <i data-lucide="building-2" class="lucide-icon"></i>
+                    </div>
+                    <h3>Financial Services</h3>
+                    <p>Secure, compliant technology infrastructure for banking and financial institutions with robust security and high availability.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Core banking infrastructure</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Payment gateway systems</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Fraud detection &amp; prevention</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Regulatory compliance</li>
+                    </ul>
+                </div>
+
+                <div id="healthcare" class="solution-card glass-card" data-tilt>
+                    <div class="solution-icon">
+                        <i data-lucide="activity" class="lucide-icon"></i>
+                    </div>
+                    <h3>Healthcare</h3>
+                    <p>Integrated healthcare IT systems supporting patient care, medical records management, and healthcare analytics.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Electronic health records</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Hospital information systems</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Telemedicine platforms</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Medical data security</li>
+                    </ul>
+                </div>
+
+                <div id="education" class="solution-card glass-card" data-tilt>
+                    <div class="solution-icon">
+                        <i data-lucide="graduation-cap" class="lucide-icon"></i>
+                    </div>
+                    <h3>Education</h3>
+                    <p>Modern educational technology infrastructure enabling digital learning and administrative efficiency for institutions.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Learning management systems</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Virtual classroom platforms</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Student information systems</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Campus network infrastructure</li>
+                    </ul>
+                </div>
+
+                <div id="energy" class="solution-card glass-card" data-tilt>
+                    <div class="solution-icon">
+                        <i data-lucide="zap" class="lucide-icon"></i>
+                    </div>
+                    <h3>Energy &amp; Utilities</h3>
+                    <p>Industrial-grade IT infrastructure for energy sector operations, SCADA systems, and resource management.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> SCADA &amp; control systems</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Asset management platforms</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Smart grid technologies</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Operational technology security</li>
+                    </ul>
+                </div>
+
+                <div id="manufacturing" class="solution-card glass-card" data-tilt>
+                    <div class="solution-icon">
+                        <i data-lucide="factory" class="lucide-icon"></i>
+                    </div>
+                    <h3>Manufacturing</h3>
+                    <p>Industry 4.0 solutions integrating IoT, automation, and data analytics for smart manufacturing operations.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Industrial IoT platforms</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Manufacturing execution systems</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Supply chain integration</li>
+                        <li><i data-lucide="check-circle-2" class="lucide-icon"></i> Predictive maintenance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer footer-modern">
+        <!-- Animated Grid Background -->
+        <div class="footer-grid-bg"></div>
+        
+        <div class="footer-main-modern">
+            <div class="container">
+                <div class="footer-grid-modern">
+                    <!-- Company Info -->
+                    <div class="footer-brand">
+                        <img src="Untitled-2-011.png" alt="SHABAKAH" class="footer-logo-modern">
+                        <p class="footer-tagline-modern">
+                            Enterprise-Grade ICT Excellence Since 1997. Transforming businesses across Saudi Arabia with innovative technology solutions.
+                        </p>
+                        <div class="footer-social-modern">
+                            <a href="https://www.linkedin.com/company/shabakah-net-co./" target="_blank" rel="noopener noreferrer" class="social-icon-glow" aria-label="SHABAKAH on LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="linkedin-svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-col-modern">
+                        <h4>Services</h4>
+                        <ul class="footer-links-modern">
+                            <li><a href="services.html#infrastructure">IT Infrastructure</a></li>
+                            <li><a href="services.html#datacenter">Data Center Solutions</a></li>
+                            <li><a href="services.html#physicalsecurity">Physical Security Systems</a></li>
+                            <li><a href="services.html#communications">Unified Communications &amp; Collaboration</a></li>
+                            <li><a href="services.html#licensing">Software Licensing</a></li>
+                            <li><a href="services.html#enduser">End-User Devices</a></li>
+                            <li><a href="services.html#cybersecurity">Integrated Security &amp; Business Continuity</a></li>
+                            <li><a href="services.html#managed">Managed Services</a></li>
+                            <li><a href="services.html#isp">ISP Services</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Company -->
+                    <div class="footer-col-modern">
+                        <h4>Company</h4>
+                        <ul class="footer-links-modern">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="about.html#timeline">Our Journey</a></li>
+                            <li><a href="partners.html">Partners</a></li>
+                            <li><a href="solutions.html">Solutions</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Solutions -->
+                    <div class="footer-col-modern">
+                        <h4>Solutions</h4>
+                        <ul class="footer-links-modern">
+                            <li><a href="services.html#government">Government</a></li>
+                            <li><a href="services.html#healthcare">Healthcare</a></li>
+                            <li><a href="services.html#finance">Finance</a></li>
+                            <li><a href="services.html#education">Education</a></li>
+                            <li><a href="iot-tracking.html">IoT Tracking</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-col-modern">
+                        <h4>Connect</h4>
+                        <ul class="footer-contact-modern">
+                            <li>
+                                <span class="contact-icon"><i data-lucide="map-pin" class="lucide-icon"></i></span>
+                                <span>Riyadh, Saudi Arabia</span>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i data-lucide="phone" class="lucide-icon"></i></span>
+                                <a href="tel:+966112345678">+966 11 234 5678</a>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i data-lucide="mail" class="lucide-icon"></i></span>
+                                <a href="mailto:info@shabakah.sa">info@shabakah.sa</a>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i data-lucide="clock" class="lucide-icon"></i></span>
+                                <span>24/7 Support</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom-modern">
+            <div class="container">
+                <div class="footer-bottom-content-modern">
+                    <p class="footer-copyright">
+                        © 2024 SHABAKAH Integrated Technology. All rights reserved.
+                    </p>
+                    <div class="footer-certifications">
+                        <span class="cert-badge">
+                            <i data-lucide="shield-check" class="lucide-icon"></i>
+                            ISO 27001
+                        </span>
+                        <span class="cert-badge">
+                            <i data-lucide="award" class="lucide-icon"></i>
+                            ISO 22301
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <button class="back-to-top glass-icon" id="backToTop">
+            <i data-lucide="arrow-up" class="lucide-icon"></i>
+        </button>
+    </footer>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="searchModal">
+        <div class="search-overlay"></div>
+        <div class="search-content glass-effect">
+            <button type="button" class="search-close" id="searchClose" aria-label="Close search">
+                <i data-lucide="x" class="lucide-icon"></i>
+            </button>
+            <form class="search-form">
+                <input type="search" placeholder="Search services, solutions, insights..." class="search-input">
+                <button type="submit" class="search-submit" aria-label="Submit search">
+                    <i data-lucide="search" class="lucide-icon"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/language-complete.js"></script>
+    <script src="assets/js/animations.js"></script>
+    
+    <!-- Lucide Icons Initialization -->
+    <script>
+        lucide.createIcons();
+    </script>
+    
+    <!-- SVG Gradient Definition -->
+    <svg width="0" height="0" style="position: absolute;">
+        <defs>
+            <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#BC8242;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#FAEDC3;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#D4A259;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+    </svg>
+</body>
+</html>
+
